@@ -32,7 +32,7 @@ Setup Instructions
 
     Clone the repository:
 
-git clone https://github.com/yourusername/financial-insights-dashboard.git
+git clone https://github.com/nikhilsingh21/financial-dashboard
 cd financial-insights-dashboard
 
 Create and activate a virtual environment:
@@ -61,12 +61,12 @@ Model Logic
 
 The financial scoring model is based on the following factors:
 
-    Savings-to-Income Ratio: A higher savings rate improves the score.
-    Monthly Expenses: Expenses as a percentage of income affect the score. Higher spending relative to income lowers the score.
-    Loan Payments: High loan payments as a percentage of income reduce the score.
-    Credit Card Spending: Trends in credit card spending indicate financial discipline. Excessive spending lowers the score.
-    Spending Distribution: Categories such as entertainment and travel, when higher, reduce the score.
-    Financial Goals Met: Meeting financial goals increases the score.
+1. Savings-to-Income Ratio: A higher savings rate improves the score.
+2. Monthly Expenses: Expenses as a percentage of income affect the score. Higher spending relative to income lowers the score.
+3. Loan Payments: High loan payments as a percentage of income reduce the score.
+4. Credit Card Spending: Trends in credit card spending indicate financial discipline. Excessive spending lowers the score.
+5. Spending Distribution: Categories such as entertainment and travel, when higher, reduce the score.
+6. Financial Goals Met: Meeting financial goals increases the score.
 
 Justification:
 
