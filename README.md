@@ -3,23 +3,23 @@ Financial Insights Dashboard and Scoring Model
 This project involves building a Financial Insights Dashboard and scoring model that helps evaluate the financial health of a family based on their spending and income patterns. It includes data analysis, financial score calculation, interactive visualizations, and an API to expose the scoring model.
 Project Overview
 
-    Data Analysis:
+1. Data Analysis:
         The dataset includes family and member-level spending data.
         The analysis identifies spending patterns and correlations, such as income vs. expenses and savings vs. spending habits.
 
-    Financial Scoring Model:
+2. Financial Scoring Model:
         A score (0–100) evaluates family financial health.
         Factors considered include savings-to-income ratio, monthly expenses as a percentage of income, loan payments, credit card spending, and financial goals met.
         Weighting and scoring logic were designed to give importance to core financial health indicators (e.g., savings and loan payments).
 
-    Visualizations:
+3. Visualizations:
         Visualizations show key insights, such as spending distribution across categories, family financial scores, and member-wise spending trends.
         Plots were created using matplotlib, seaborn, and plotly for better interactivity.
 
-    Flask API:
+4. Flask API:
         A Flask app serves the financial scoring model via an API, which takes family-level data as input and outputs their financial score and recommendations.
 
-    Interactive Dashboard:
+5. Interactive Dashboard:
         An interactive dashboard using Dash allows users to interact with the model, visualize their data, and receive recommendations for improving their financial scores.
 
 Installation
